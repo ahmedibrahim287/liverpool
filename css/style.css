@@ -239,7 +239,7 @@ nav ul li {
 
 .card {
     padding: 40px 30px 40px 20px;
-    border: 2.5px solid var(--myColor, red);
+    border: 2.5px solid var(--mySubColor);
     background: white;
     margin-bottom: 15px;
     position: relative;
