@@ -167,13 +167,13 @@ nav ul li {
 
 .search div span {
     position: absolute;
-    top: 24px;
+    top: 4px;
     color: white;
     width: 0PX;
-    font-size: 50PX;
+    font-size: 40PX;
     height: 0PX;
-    left: 6PX;
-    transform: rotate(-50deg);
+    left: 25PX;
+
     transition: left 0.5s;
     -webkit-transition: left 0.5s;
     -moz-transition: left 0.5s;
@@ -190,7 +190,7 @@ nav ul li {
 }
 
 .search div:hover>span {
-    left: 125px;
+    left: 145px;
 
 }
 
@@ -342,7 +342,7 @@ hr {
 }
 
 .aboutcard img {
-    width: 500px;
+    width: 100%;
     height: 270px;
 }
 
@@ -351,7 +351,7 @@ hr {
     background-color: #0da678b4;
     position: absolute;
     top: 0;
-    width: 500px;
+    width: 100%;
     height: 270px;
     border-radius: 20px;
     margin-left: 2px;
@@ -427,6 +427,16 @@ tr:nth-child(even) {
 .sectest2 div img {
 
     width: 365px;
+}
+
+@media(max-width:600px) {
+    .sectest2 div {
+        Width: 100%;
+    }
+
+    .sectest2 div img {
+        width: 100%;
+    }
 }
 
 /* end latest news */
